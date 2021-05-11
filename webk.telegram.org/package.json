@@ -1,0 +1,23 @@
+{
+  "id": "telegramk",
+  "name": "Telegram Web UI",
+  "version": "0.0.1",
+  "description": "Telegram Web UI",
+  "main": "index.js",
+  "author": "Jonas Voss",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://webk.telegram.org/",
+    "message": "This is a Ferdi/Franz recipe, for Telegrams new snazzy Web UI released in April 2021.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": true,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
